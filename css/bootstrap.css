@@ -1,0 +1,200 @@
+/* Importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Quicksand:wght@300&display=swap');
+
+/* Estilos gerais */
+body {
+  font-family: 'Jost', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: transparent; /* Cor de fundo transparente */
+}
+
+.navbar-brand {
+  color: #f5f3f3; /* Cor do texto */
+  font-size: 1.5rem; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Cor do texto */
+  font-size: 1rem; /* Tamanho da fonte */
+  margin-left: 15px; /* Margem esquerda */
+}
+
+.navbar-nav .nav-link.highlight {
+  background-color: #0570eb; /* Cor de fundo */
+  color: #fafafa; /* Cor do texto */
+  padding: 0.5rem 1rem; /* Preenchimento interno */
+  border-radius: 1.5rem; /* Raio do canto arredondado */
+}
+
+/* Estilos da introdução */
+.intro-image {
+  position: relative; /* Posição relativa */
+  text-align: center; /* Alinhamento do texto ao centro */
+}
+
+.intro-image img {
+  width: 100%; /* Largura da imagem */
+  height: auto; /* Altura automática */
+}
+
+.overlay {
+  position: absolute; /* Posição absoluta */
+  top: 50%; /* Distância do topo */
+  left: 50%; /* Distância da esquerda */
+  transform: translate(-50%, -50%); /* Translação para centralizar */
+  text-align: center; /* Alinhamento do texto ao centro */
+  color: #fff; /* Cor do texto */
+}
+
+#título {
+  font-size: 3.5rem; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+  margin-bottom: 20px; /* Margem inferior */
+}
+
+#sobretítulo {
+  font-size: 1.5rem; /* Tamanho da fonte */
+}
+
+/* Estilos da seção "Sobre nós" */
+.sobrenos {
+  background-color: #f5f5f5; /* Cor de fundo */
+  padding: 40px 0; /* Preenchimento interno (40px superior e inferior, 0 nos lados) */
+}
+
+.descricao {
+  text-align: center; /* Alinhamento do texto ao centro */
+  margin-bottom: 30px; /* Margem inferior */
+}
+
+.descricao h2 {
+  font-size: 2.5rem; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+  margin-bottom: 20px; /* Margem inferior */
+}
+
+.descricao p {
+  font-size: 1.2rem; /* Tamanho da fonte */
+}
+
+/* Estilos da seção "Contato" */
+.contato {
+  background-color: #f5f5f5; /* Cor de fundo */
+  padding: 40px; /* Preenchimento interno */
+}
+
+.contato h2 {
+  font-size: 2.5rem; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+  text-align: center; /* Alinhamento do texto ao centro */
+  margin-bottom: 20px; /* Margem inferior */
+}
+
+.contato-info {
+  display: flex; /* Display flexível */
+  justify-content: space-between; /* Justificar o conteúdo com espaçamento uniforme */
+  align-items: flex-start; /* Alinhar os itens ao topo */
+}
+
+.endereco,
+.contate-nos,
+.redes-sociais {
+  width: calc(33.33% - 10px); /* Largura dos elementos */
+}
+
+.endereco h3,
+.contate-nos h3,
+.redes-sociais h3 {
+  font-size: 1.5rem; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+  margin-bottom: 10px; /* Margem inferior */
+}
+
+.endereco p,
+.contate-nos p {
+  font-size: 1.2rem; /* Tamanho da fonte */
+  margin-bottom: 10px; /* Margem inferior */
+}
+
+.redes-sociais ul {
+  list-style: none; /* Remover marcadores da lista */
+  padding: 0; /* Preenchimento interno */
+  margin-top: 10px; /* Margem superior */
+}
+
+.redes-sociais li {
+  margin-bottom: 5px; /* Margem inferior */
+}
+
+.redes-sociais a {
+  display: flex; /* Display flexível */
+  align-items: center; /* Alinhar itens ao centro verticalmente */
+  color: #333; /* Cor do texto */
+  font-size: 1rem; /* Tamanho da fonte */
+  text-decoration: none; /* Remover decoração de texto */
+}
+
+.redes-sociais a i {
+  margin-right: 5px; /* Margem direita */
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #ffffff; /* Cor de fundo */
+  color: #000000; /* Cor do texto */
+  text-align: center; /* Alinhamento do texto ao centro */
+  padding: 1px 0; /* Preenchimento interno (1px superior e inferior, 0 nos lados) */
+}
+
+footer p {
+  font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Estilos da página de login */
+.login-box {
+  max-width: 400px; /* Largura máxima */
+  margin: 0 auto; /* Margem (0 nas laterais e automática no topo e na base) */
+  padding: 20px; /* Preenchimento interno */
+  background-color: #f5f5f5; /* Cor de fundo */
+  border: 1px solid #000000; /* Borda (1px de espessura e cor preta) */
+  f0606; /* Cor de borda inválida (deve ser um erro de digitação) */
+  margin-top: 100px; /* Margem superior */
+}
+
+.login-box h2 {
+  font-size: 2.5rem; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+  text-align: center; /* Alinhamento do texto ao centro */
+  margin-bottom: 20px; /* Margem inferior */
+}
+
+.form-label {
+  font-size: 1rem; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+}
+
+.form-control {
+  margin-bottom: 20px; /* Margem inferior */
+}
+
+.btn-primary {
+  background-color: #0570eb; /* Cor de fundo */
+  color: #ffffff; /* Cor do texto */
+  padding: 10px 20px; /* Preenchimento interno */
+  font-size: 1rem; /* Tamanho da fonte */
+  border: none; /* Remover borda */
+  cursor: pointer; /* Cursor do mouse */
+  display: block; /* Transformar em elemento de bloco */
+  margin-left: auto; /* Margem esquerda automática */
+  margin-right: auto; /* Margem direita automática */
+}
+
+.btn-primary:hover {
+  background-color: #ffca2c; /* Cor de fundo ao passar o mouse */
+}
